@@ -1,0 +1,23 @@
+#time {
+    font-size: 20px;
+}
+div {
+    padding: 5px;
+    font-size: xx-large;
+}
+button {
+    display: inline-block;
+    padding: 5px;
+    font-weight: 800;
+    background-color: #ffffff;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: rgba(240, 248, 255, 0.537);
+}
+
+button:disabled {
+    cursor: default;
+    background-color: rgba(240, 248, 255, 0.537);
+}
